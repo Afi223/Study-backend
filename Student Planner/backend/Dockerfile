@@ -1,8 +1,3 @@
-FROM ubuntu:latest
-LABEL authors="afihassan"
-
-ENTRYPOINT ["top", "-b"]
-
 # ---------- Build stage ----------
 FROM eclipse-temurin:21-jdk AS build
 WORKDIR /app
